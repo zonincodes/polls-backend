@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Hero from "./components/Hero";
+import Polls from "./components/Polls";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Hero />
+      <Polls />
     </div>
   );
 }
